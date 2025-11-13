@@ -18,15 +18,22 @@ function App() {
                 variant="h4"
                 component="h1"
                 sx={{
-                  flexGrow: 1,
                   fontWeight: 700,
                   background: 'linear-gradient(45deg, #FFF 30%, #FFD700 90%)',
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
+                  mr: 2,
                 }}
               >
                 PokeList
               </Typography>
+              <Box >
+                <img 
+                  src="/logo-gif.gif" 
+                  alt="Logo" 
+                  style={{ height: '50px', width: 'auto' }}
+                />
+              </Box>
             </Toolbar>
           </AppBar>
 
