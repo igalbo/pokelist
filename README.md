@@ -10,6 +10,10 @@ A modern full-stack app to browse, search, and manage favorite Pokémon. Built w
 - Add/remove favorites (persisted in MongoDB)
 - Responsive Material UI design
 
+## ⚠️ Important Note
+
+**As per requirements, I used Render.com's free tier, which goes to sleep after some inactivity. So if at first you don't see the pokemon list, please allow 60 seconds for the server to "wake up", and refresh the page.**
+
 ## Tech Stack
 
 **Frontend:** React, Vite, Material UI, Context API  
