@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Grid, Box, Typography, CircularProgress } from '@mui/material';
+import { Grid, Box, Typography } from '@mui/material';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import PokemonCard from './PokemonCard';
 import PokemonDetails from './PokemonDetails/PokemonDetails';
@@ -21,7 +21,7 @@ const PokemonList = () => {
     return (
       <Box sx={{ display: 'flex', justifyContent: 'center', py: 8 }}>
         <img 
-          src="/pikachu-gif.webp" 
+          src="/pikachu-gif.gif" 
           alt="Loading..." 
           style={{ width: '150px', height: 'auto' }}
         />
@@ -58,7 +58,7 @@ const PokemonList = () => {
         loader={
           <Box sx={{ display: 'flex', justifyContent: 'center', py: 4 }}>
             <img 
-              src="/pikachu-gif.webp" 
+              src="/pikachu-gif.gif" 
               alt="Loading more..." 
               style={{ width: '100px', height: 'auto' }}
             />
