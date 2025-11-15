@@ -20,7 +20,11 @@ const PokemonList = () => {
   if (loading) {
     return (
       <Box sx={{ display: 'flex', justifyContent: 'center', py: 8 }}>
-        <CircularProgress size={60} />
+        <img 
+          src="/pikachu-gif.webp" 
+          alt="Loading..." 
+          style={{ width: '150px', height: 'auto' }}
+        />
       </Box>
     );
   }
@@ -53,7 +57,11 @@ const PokemonList = () => {
         hasMore={hasMore}
         loader={
           <Box sx={{ display: 'flex', justifyContent: 'center', py: 4 }}>
-            <CircularProgress />
+            <img 
+              src="/pikachu-gif.webp" 
+              alt="Loading more..." 
+              style={{ width: '100px', height: 'auto' }}
+            />
           </Box>
         }
         endMessage={
